@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+
+body{
+
+    font-family: "Slackey", sans-serif;
+    color: white;
+}
+
+#explication{
+    font-size: 25px;
+}
+
+
+body.neutral {
+    background: linear-gradient(270deg, #1569ab, #35b7db, #724fe6);
+    background-size: 600% 600%;
+}
+
+@keyframes neutral {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body.win {
+    background: linear-gradient(270deg, #6ad223, #b4ea8f, #6fe121);
+    background-size: 600% 600%;
+}
+
+@keyframes win {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body.lose {
+    background: linear-gradient(270deg, #d22323, #db3535, #e64f4f);
+    background-size: 600% 600%;
+}
+
+@keyframes lose {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+button#moyen {
+    color: white;
+}
+
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+}
+
+.shake {
+    animation: shake 0.2s ease; /* Animation rapide (0.2s) pour donner un effet de tremblement */
+}
