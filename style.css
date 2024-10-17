@@ -69,3 +69,21 @@ button#moyen {
 .shake {
     animation: shake 0.2s ease; /* Animation rapide (0.2s) pour donner un effet de tremblement */
 }
+
+h1 {
+    display: inline-block; /* Pour que l'animation se limite à la taille du texte */
+    position: relative;
+    animation: slideLeftRight 5s ease-in-out infinite;
+}
+
+@keyframes slideLeftRight {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px); /* Valeur du déplacement vers la droite */
+    }
+    100% {
+        transform: translateX(0); /* Retour à la position initiale */
+    }
+}
