@@ -12,7 +12,45 @@
     <script src="script.js"></script>
     <title>Le nombre mystère !</title>
 </head>
-<body>
+<body class="w-50 mx-auto">
+<div class="d-flex justify-content-center align-items-center flex-column">
+    <h1 class="mb-5">Le nombre mystère !</h1>
+
+    <!-- Menu de séléction diffculté -->
+
+<button id="facile" class="btn btn-success mb-3">Facile !</button>
+<button id="moyen" class="btn btn-warning mb-3">Intérmédiaire !</button>
+<button id="difficile" class="btn btn-danger mb-3"> Difficile !</button>
+
+<button id="start" class="btn btn-primary mb-5">C'est parti !</button>
+
+<span id="explication" class="border border-primary"></span>
+
+
+
+<div id="main" style="display: none;">
+
+<!-- Span d'affiche  -->
+
+    <span id="mysterie-container" class="border border-primary bg-primary bg-gradient mb-3"></span>
+
+    <!-- Input -->
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Donner votre chiffre / nombre !</span>
+        </div>
+        <input type="number" id="inputNumber" class="form-control" value="1" placeholder="" min="" max="" aria-label="inputnumber" aria-describedby="Ecrire votre chiffre">
+      </div>
+
+      <!-- Bouton pour valider -->
+
+      <button type="button" class="btn btn-primary" id="validate">Valider</button>
+      <button type="button" class="btn btn-primary mt-3" id="replay" style="display: none;">Rejouer ?</button>
     
+    </div>
+
+
+</div>   
 </body>
 </html>
