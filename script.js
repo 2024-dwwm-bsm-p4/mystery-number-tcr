@@ -32,12 +32,12 @@ addEventListener("DOMContentLoaded", () => {
       explication.style.textShadow = "0 0 5px #C82333";
       DIFFICULTY = "difficile";
     });
-  
+
     infini.addEventListener("click", () => {
       explication.innerHTML =
         "Le nombre mystère est compris entre 1 et 100000000 ! Vous avez un nombre d'essais illimité !";
-      explication.style.color = "#6C757D";
-      explication.style.textShadow = "0 0 5px #6C757D";
+      explication.style.color = "#23272B";
+      explication.style.textShadow = "0 0 5px #23272B";
       DIFFICULTY = "infini";
     });
   
@@ -50,7 +50,7 @@ addEventListener("DOMContentLoaded", () => {
       explication.style.display = "none";
       document.getElementById("main").style.display = "block";
   
-      // Passer la fonction main avec des paramètres selon la difficulté
+      // Ici je passe la fonction main avec des paramètres différents en fonction de la difficulté
       if (DIFFICULTY === "facile") {
         main(3, 10, 1, 10);
       } else if (DIFFICULTY === "moyen") {
@@ -58,11 +58,13 @@ addEventListener("DOMContentLoaded", () => {
       } else if (DIFFICULTY === "difficile") {
         main(1, 100, 1, 100);
       } else if (DIFFICULTY === "infini") {
-        main(Infinity, 100000000, 1, 100000000); // Utilisation de Infinity pour des essais illimités
+        main(Infinity, 100000000, 1, 100000000); 
       } else {
-        main(3, 10, 1, 10); // Valeur par défaut
+        main(3, 10, 1, 10); 
       }
     });
+
+
   
     // Ma fonction main, le cœur du jeu
     function main(health, difficult_value, inputValuemin, inputValuemax) {
