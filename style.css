@@ -45,6 +45,33 @@ body.lose {
     100% { background-position: 0% 50%; }
 }
 
+body.infini{
+
+    background: linear-gradient(270deg, #e809f7, #000000, #2a4198, #7b419d, #3b2549);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: infini 30s ease infinite;
+    -moz-animation: infini 30s ease infinite;
+    animation: infini 30s ease infinite;
+}
+
+@-webkit-keyframes infini {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes infini {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes infini {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
 
 button#moyen {
     color: white;
