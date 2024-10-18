@@ -71,6 +71,32 @@ body.infini{
     100%{background-position:0% 50%}
 }
 
+body.timer{
+
+    background: linear-gradient(180deg, #ff0000, #ff4b4b, #ff9112, #ffb865, #ffab46, #ff9618, #ff5b18, #ff0000);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: timer 1s ease infinite;
+    -moz-animation: timer 1s ease infinite;
+    animation: timer 1s ease infinite;
+}
+
+@-webkit-keyframes timer {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@-moz-keyframes timer {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@keyframes timer {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+
 
 
 button#moyen {
