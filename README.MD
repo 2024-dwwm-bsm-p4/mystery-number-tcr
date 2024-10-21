@@ -68,30 +68,30 @@ Livraison du projet dans 2 jours à compter du début du brief.
 - Pensez à compléter le ***nom de la personne corrigée*** et le ***nom du correcteur*** dans l'entête du tableau.
 - Indiquez le **nombre d'étoiles obtenues** (l'étoile d'une catégorie est obtenue si tous ses critères de performance sont validés).
 
-| *nom de la personne corrigée*           |                               | *nom du correcteur*     |
+| *Térence*           |                               | *Perrine*     |
 | :---- | :----: | :---: |
-| Critères de performance                 |                               | Remarques du correcteur |
+| Critères de performance                 |                               | Maginifique 😄|
 | ***Interface utilisateur***             |                               |                         |
-| - L'interface est claire et intuitive   | <ul><li>- [ ] &nbsp;</li><ul> |                         |
-| - Gestion des essais et des résultats   | <ul><li>- [ ] &nbsp;</li><ul> |                         |
-|                                         | <ul><li>- [ ] ⭐</li><ul>     |                         |
+| - L'interface est claire et intuitive   | <ul><li>- [x] &nbsp;</li><ul> |                         |
+| - Gestion des essais et des résultats   | <ul><li>- [x] &nbsp;</li><ul> |                         |
+|                                         | <ul><li>- [x] ⭐</li><ul>     |                         |
 | ***Fonctionnalités***                   |                               |                         |
-| - Génération correcte du numéro mystère | <ul><li>- [ ] &nbsp;</li><ul> |                         |
-| - Gestion des indices (plus/moins)      | <ul><li>- [ ] &nbsp;</li><ul> |                         |
-| - Limitation des essais à 3 tentatives  | <ul><li>- [ ] &nbsp;</li><ul> |                         |
-|                                         | <ul><li>- [ ] ⭐</li><ul>     |                         |
+| - Génération correcte du numéro mystère | <ul><li>- [x] &nbsp;</li><ul> |                         |
+| - Gestion des indices (plus/moins)      | <ul><li>- [x] &nbsp;</li><ul> |                         |
+| - Limitation des essais à 3 tentatives  | <ul><li>- [x] &nbsp;</li><ul> |                         |
+|                                         | <ul><li>- [x] ⭐</li><ul>     |                         |
 | ***Code***                              |                               |                         |
-| - Organisation et lisibilité du code    | <ul><li>- [ ] &nbsp;</li><ul> |                         |
-| - Respect des bonnes pratiques JS/HTML  | <ul><li>- [ ] &nbsp;</li><ul> |                         |
-| - Commentaires dans le code             | <ul><li>- [ ] &nbsp;</li><ul> |                         |
-|                                         | <ul><li>- [ ] ⭐</li><ul>     |                         |
+| - Organisation et lisibilité du code    | <ul><li>- [x] &nbsp;</li><ul> |                         |
+| - Respect des bonnes pratiques JS/HTML  | <ul><li>- [x] &nbsp;</li><ul> |                         |
+| - Commentaires dans le code             | <ul><li>- [x] &nbsp;</li><ul> |                         |
+|                                         | <ul><li>- [x] ⭐</li><ul>     |                         |
 | ***Bonus***                             |                               |                         |
-| - Délai d'affichage                     | <ul><li>- [ ] &nbsp;</li><ul> |                         |
-| - 3 niveaux de difficulté               | <ul><li>- [ ] &nbsp;</li><ul> |                         |
-|                                         | <ul><li>- [ ] ⭐</li><ul>     |                         |
+| - Délai d'affichage                     | <ul><li>- [x] &nbsp;</li><ul> |                         |
+| - 3 niveaux de difficulté               | <ul><li>- [x] &nbsp;</li><ul> |                         |
+|                                         | <ul><li>- [x] ⭐</li><ul>     |                         |
 | ***Livrables***                         |                               |                         |
-| - Projet livré dans les délais          | <ul><li>- [ ] &nbsp;</li><ul> |                         |
-|                                         | <ul><li>- [ ] ⭐</li><ul>     |                         |
+| - Projet livré dans les délais          | <ul><li>- [x] &nbsp;</li><ul> |                         |
+|                                         | <ul><li>- [x] ⭐</li><ul>     |                           |
 
 **Nombre d'étoiles obtenues** : ⭐⭐⭐⭐⭐
 
